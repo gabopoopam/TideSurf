@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, serif;
+    background-color: #f5f5f5;
+}
+
+/* HERO */
+
+.hero{
+    height: 100vh;
+
+    background-image:
+    linear-gradient(rgba(238, 230, 230, 0.4), rgba(235, 229, 229, 0.4)),
+    url("img/surf4.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: left;
+
+    text-align: left;
+    color: white;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.hero-text p{
+    font-size: 22px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 70px;
+    border-radius: 100px;
+}
+
+.logo h2{
+    font-size: 25px;
+    color: #2d4f5a;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: #dfe9ef;
+    color: #333;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background-color: #c6dbe7;
+}
+
+/* SECCIONES */
+
+section{
+    text-align: center;
+    padding: 80px 15%;
+}
+
+section h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #222;
+}
+
+section p{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    color: #444;
+}
+
+section img{
+    width: 350px;
+    height: auto;
+}
+
+/* COLORES DE SECCIONES */
+
+.objetivo{
+.objetivo{
+    height: 100vh;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("img/surf4.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+
+    padding: 0 15%;
+}
+}
+
+.beneficios{
+    background-color: #f1dcb5;
+}
+
+.info{
+    background-color: #f5f5f5;
+}
+
+.comunidad{
+    background-color: #f1dcb5;
+}
