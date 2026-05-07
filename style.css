@@ -1,0 +1,99 @@
+/* CENTRAR TODO */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2c3e50; /* fondo oscuro */
+  font-family: Arial, sans-serif;
+}
+
+/* TARJETA */
+.card {
+  background: #fdf6ed;
+  width: 360px;
+  padding: 30px 25px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+/* TITULOS */
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+h1 {
+  margin: 10px 0 5px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+/* INPUTS GRANDES Y SUAVES */
+.input-box {
+  position: relative;
+  margin: 15px 0;
+}
+
+.input-box input {
+  width: 50%;
+  padding: 14px 45px;
+  border-radius: 12px;
+  border: none;
+  background: #eaeaea;
+  font-size: 14px;
+  outline: none;
+}
+
+/* ICONOS */
+.input-box i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #333;
+}
+
+.input-box i:first-child {
+  left: 15px;
+}
+
+.eye {
+  right: 15px;
+  cursor: pointer;
+}
+
+/* TEXTO ABAJO */
+.extra {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 10px 0 20px;
+}
+
+.extra a {
+  color: #2aa3a3;
+  text-decoration: none;
+}
+
+/* BOTON */
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 25px;
+  background: #a8d5d7;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: start;
+}
