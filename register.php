@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // HASH DE CONTRASEÑA
      $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
  
-     $sql = "INSERT INTO usuarios (nombre, correo, password, rol) VALUES (?,
+     $sql = "INSERT INTO register (nombre, correo, password, rol) VALUES (?,
 ?, ?, 'usuario')";
 
     $stmt = $conn->prepare($sql);
